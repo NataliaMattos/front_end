@@ -1,0 +1,86 @@
+nav {
+    font-family: 'Bungee Inline';font-size: 22px;
+}
+body {
+    font-family: 'Caveat';font-size: 22px;
+    background-color: gainsboro;
+}
+footer{
+    font-family: '';font-size: 20px;
+}
+#card{
+    padding-top: 1em;
+    font-size: 36px;
+}
+p{
+    padding-top: 1em;
+    font-size: 25px;
+}
+
+#navfont{
+    font-family: 'Bungee Inline';font-size: 15px;
+    }
+
+#example1 {
+
+padding: 20px;
+background:gainsboro;
+background-repeat: no-repeat;
+background-size: auto;
+}
+#font{
+    font-family: 'Caveat';font-size: 22px;
+    }
+
+span{
+        font-family: 'Bungee Inline';font-size: 22px;
+        }
+
+#card_tam{
+ min-height: 400px;
+}
+
+@media screen and (max-width: 645px){
+    #titulo{
+        font-family: 'Bungee Inline';font-size: 20px;
+    }
+    body{
+       
+        background-color: gainsboro;
+    }
+    #card{
+        padding-top: 2em;
+        font-family: 'ubuntu';font-size: 20px;
+    }
+    #cabe1{
+        font-size:60px;
+    }
+    #cabe2{
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+
+       p{
+        font-size:20px;    
+       }
+       #card_tam{
+        min-height: 300px;
+       }
+}
+
+
+@media screen and (max-width: 420px){
+    #cel {
+        display: none;
+    }
+    #titulo{
+        font-family: 'Bungee Inline';font-size: 12px;
+    }
+   
+
+}
+
+
